@@ -245,4 +245,18 @@ nav{
   justify-content: center;
   align-items: center;
 }
+ .about h2{
+
+  text-align: center;
+  margin: 25px 0;
+ }
+ .about p{
+
+  text-align: center;
+  margin: 0 50px 25px 50px;
+  
+ }
+ .about button{
+  margin-bottom: 50px;
+ }
 
