@@ -4,7 +4,7 @@
     margin: 0;
 }
 body {
-    font-family: "Mulish", sans-serif;
+  font-family: "Poppins", sans-serif;
     max-width: 100%;
     overflow-x: hidden;
   }
@@ -20,7 +20,7 @@ nav .logo {
     margin: 25px 50px 25px 0;
 }
 nav .logo img {
-    margin-right: 15px;
+    margin-right: 5px;
 }
 nav .logo p {
     font-weight: 700;
@@ -99,7 +99,7 @@ nav{
     .left-hero h1 {
         margin-bottom: 25px;
         width: 50%;
-        font-weight: 900;
+        font-weight: 600;
         font-size: 45px;
     }
   .left-hero p{
@@ -235,6 +235,7 @@ nav{
 }
 .cat-flex .cat p{
   color: #fff;
+  font-weight: 500;
   margin-top: 20px;
 
 }
@@ -259,4 +260,228 @@ nav{
  .about button{
   margin-bottom: 50px;
  }
+ .free-left {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  margin-left:50px;
+  padding-top: 20px;
+}
+.free-item{
+  margin-right: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center; 
+  margin-top:25px;
 
+}
+.free-item img{
+  background-color: #1CBCB4;
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+  border-radius: 50%;
+  margin-right: 25px;
+}
+
+.right-item h4{
+  color: #FF4F5A;
+  font-weight: bold;
+}
+
+.right-item p{
+  font-size: 24px;
+  font-weight: 600;
+}
+.freelancer {
+  display: flex;
+  flex-direction: row;
+}
+.free-right{
+  justify-content: end;
+width: 90%;}
+.free-right img{
+margin-bottom: 50px;
+}
+.free h2 {
+  margin-left: 50px;
+  margin-top: 50px;
+  font-size: 32px;
+}
+.free{
+  margin-top: 50px;
+}
+
+.testm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.testm h2{
+font-size: 32px;
+margin-bottom: 35px;
+}
+.testm-item {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px; /* Set a suitable max-width value */
+  height: 250px;
+  padding: 25px 50px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  background: #FFF;
+  box-shadow: 0px 1px 11px 10px rgba(0, 0, 0, 0.05);
+}
+.testm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center; /* Add this line */
+  margin-bottom: 50px;
+}
+
+
+.testm-item h3{
+  text-align: center;
+  font-weight: 600px;
+  font-size: 24px;
+
+}
+.testm-item p{
+  text-align: center;
+  margin: 10px 25px 25px 25px;
+}
+.prev {
+  position: absolute;
+  background-color: #1a2e35;
+  border-radius: 50%;
+  z-index: 100000;
+  width: 65px;
+  height: 65px;
+  left: 330px;
+  justify-content: center;
+  padding: 20px 20px;
+}
+.next {
+  position: absolute;
+  background-color: #1a2e35;
+  border-radius: 50%;
+  z-index: 100000;
+  right: 330px;
+  width: 65px;
+  height: 65px;
+  justify-content: center;
+  padding: 20px 20px;
+}
+
+footer {
+  color: #FFF;
+  background-color: #1A2E35;
+  margin-top: 50px;
+  padding:100px 150px;
+}
+.foot-fLayer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.foot-fLayer  .logo {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0px 50px 0px 0;
+}
+.foot-fLayer  .logo img {
+  margin-right: 5px;
+}
+.foot-fLayer  .logo p {
+  font-weight: 700;
+}
+.foot-fLayer .ico img {
+  margin: 0 15px 0 15px;
+  width: 24px;
+}
+
+.foot-sLayer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.foot-sLayer ul{
+  display: flex;
+  flex-direction: column;
+}
+.usefulLinks {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+}
+.usefulLinks h4 {
+margin-bottom:12px ;
+}
+.usefulLinks ul li a{
+  margin: 0;
+  
+}
+.usefulLinks ul li {
+  margin-top: 10px;
+}
+
+.offices h4{
+  margin-bottom:12px ;
+
+}
+.offices{
+width: 20%;
+margin-right: 30px;
+}
+.offices h4{
+  margin-bottom:12px ;
+
+}
+
+.info{
+  width: 20%;
+  margin-right: 30px;
+}
+.info h4{
+  margin-bottom:12px ;
+}
+
+
+.form h4 {
+  margin-bottom:12px ;
+}
+.form input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+.form .primary-btn {
+  padding: 10px 20px;
+  margin-top: 10px;
+}
+.hero .hero-arrows .prev {
+background-color: #1CBCB4;
+position: absolute;
+top: 712px;
+left: 100px;
+width: 50px;
+height: 50px;
+padding: 20px;
+}
+.hero .hero-arrows .next {
+background-color: #1CBCB4;
+position: absolute;
+top: 712px;
+width: 50px;
+height: 50px;
+left: 200PX;
+}
