@@ -276,14 +276,20 @@ nav{
 
 }
 .free-item img{
+  object-fit: contain;
+  padding: 20px;
+  margin: 0 auto;
+}
+.free-item-wrapper{
+  display: flex;
   background-color: #1CBCB4;
   width: 100px;
-  height: 100px;
-  padding: 20px;
+  min-width: 100px;
   border-radius: 50%;
   margin-right: 25px;
-}
+  height: 100px;
 
+}
 .right-item h4{
   color: #FF4F5A;
   font-weight: bold;
